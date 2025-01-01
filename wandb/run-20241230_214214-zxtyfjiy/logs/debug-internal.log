@@ -1,0 +1,19 @@
+{"time":"2024-12-30T21:42:15.012820946-03:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-30T21:42:15.012873222-03:00","level":"INFO","msg":"created symlink","path":"/home/victor/vscode/UFRGS/pln/trab_final/PLN-Trabalho-Final/wandb/run-20241230_214214-zxtyfjiy/logs/debug-core.log"}
+{"time":"2024-12-30T21:42:16.659652266-03:00","level":"INFO","msg":"created new stream","id":"zxtyfjiy"}
+{"time":"2024-12-30T21:42:16.65976938-03:00","level":"INFO","msg":"stream: started","id":"zxtyfjiy"}
+{"time":"2024-12-30T21:42:16.659998174-03:00","level":"INFO","msg":"handler: started","stream_id":"zxtyfjiy"}
+{"time":"2024-12-30T21:42:16.660236258-03:00","level":"INFO","msg":"sender: started","stream_id":"zxtyfjiy"}
+{"time":"2024-12-30T21:42:16.660250349-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"zxtyfjiy"}
+{"time":"2024-12-30T21:42:17.781023817-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-30T21:42:23.264452933-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-12-30T21:46:20.010685855-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-12-30T21:46:22.075367965-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-30T21:46:22.077684726-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-30T21:46:23.077711324-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.288059448,"progress":"8.5KB/8.5KB"},{"desc":"uploading output.log","runtime_seconds":0.288045752,"progress":"7.6KB/7.6KB"}],"total_operations":2}}
+{"time":"2024-12-30T21:46:23.142085228-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-30T21:46:24.574805079-03:00","level":"INFO","msg":"stream: closing","id":"zxtyfjiy"}
+{"time":"2024-12-30T21:46:24.574858649-03:00","level":"INFO","msg":"handler: closed","stream_id":"zxtyfjiy"}
+{"time":"2024-12-30T21:46:24.574882233-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zxtyfjiy"}
+{"time":"2024-12-30T21:46:24.574891027-03:00","level":"INFO","msg":"sender: closed","stream_id":"zxtyfjiy"}
+{"time":"2024-12-30T21:46:24.574998533-03:00","level":"INFO","msg":"stream: closed","id":"zxtyfjiy"}

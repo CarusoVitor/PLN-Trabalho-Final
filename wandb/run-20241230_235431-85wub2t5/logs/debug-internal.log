@@ -1,0 +1,8 @@
+{"time":"2024-12-30T23:54:31.648122909-03:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-30T23:54:31.648143423-03:00","level":"INFO","msg":"created symlink","path":"/home/victor/vscode/UFRGS/pln/trab_final/PLN-Trabalho-Final/wandb/run-20241230_235431-85wub2t5/logs/debug-core.log"}
+{"time":"2024-12-30T23:54:33.188194721-03:00","level":"INFO","msg":"created new stream","id":"85wub2t5"}
+{"time":"2024-12-30T23:54:33.188269989-03:00","level":"INFO","msg":"stream: started","id":"85wub2t5"}
+{"time":"2024-12-30T23:54:33.188371405-03:00","level":"INFO","msg":"handler: started","stream_id":"85wub2t5"}
+{"time":"2024-12-30T23:54:33.188867598-03:00","level":"INFO","msg":"sender: started","stream_id":"85wub2t5"}
+{"time":"2024-12-30T23:54:33.188870239-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"85wub2t5"}
+{"time":"2024-12-30T23:54:33.801469382-03:00","level":"INFO","msg":"Starting system monitor"}

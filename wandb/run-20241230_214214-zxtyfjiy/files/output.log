@@ -1,0 +1,88 @@
+[W 2024-12-30 21:42:22,325] Trial 0 failed with parameters: {'learning_rate': 9.350642337652459e-05, 'per_device_train_batch_size': 128} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/optuna/study/_optimize.py", line 197, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/transformers/integrations/integration_utils.py", line 249, in _objective
+    trainer.train(resume_from_checkpoint=checkpoint, trial=trial)
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/transformers/trainer.py", line 2164, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/transformers/trainer.py", line 2524, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/transformers/trainer.py", line 3654, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/transformers/trainer.py", line 3708, in compute_loss
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 1665, in forward
+    outputs = self.bert(
+              ^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 1142, in forward
+    encoder_outputs = self.encoder(
+                      ^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 695, in forward
+    layer_outputs = layer_module(
+                    ^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 627, in forward
+    layer_output = apply_chunking_to_forward(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/transformers/pytorch_utils.py", line 258, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 639, in feed_forward_chunk
+    intermediate_output = self.intermediate(attention_output)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 539, in forward
+    hidden_states = self.dense(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[W 2024-12-30 21:42:22,341] Trial 0 failed with value None.
+[I 2024-12-30 21:46:20,012] A new study created in memory with name: no-name-46873017-a64e-4210-8002-28b3bd5ffc44
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at pablocosta/bertabaporu-large-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.

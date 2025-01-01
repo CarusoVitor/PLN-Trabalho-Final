@@ -1,0 +1,8 @@
+{"time":"2024-12-30T23:55:28.306897203-03:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-30T23:55:28.306923808-03:00","level":"INFO","msg":"created symlink","path":"/home/victor/vscode/UFRGS/pln/trab_final/PLN-Trabalho-Final/wandb/run-20241230_235528-t16jw2mc/logs/debug-core.log"}
+{"time":"2024-12-30T23:55:29.149618169-03:00","level":"INFO","msg":"created new stream","id":"t16jw2mc"}
+{"time":"2024-12-30T23:55:29.149679633-03:00","level":"INFO","msg":"stream: started","id":"t16jw2mc"}
+{"time":"2024-12-30T23:55:29.149775609-03:00","level":"INFO","msg":"handler: started","stream_id":"t16jw2mc"}
+{"time":"2024-12-30T23:55:29.150197142-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"t16jw2mc"}
+{"time":"2024-12-30T23:55:29.150440058-03:00","level":"INFO","msg":"sender: started","stream_id":"t16jw2mc"}
+{"time":"2024-12-30T23:55:29.649053813-03:00","level":"INFO","msg":"Starting system monitor"}

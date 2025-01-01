@@ -1,0 +1,41 @@
+{
+  "os":  "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2024-12-31T02:51:52.952040Z",
+  "program":  "/home/victor/vscode/UFRGS/pln/trab_final/PLN-Trabalho-Final/hyperp_opt.ipynb",
+  "codePath":  "hyperp_opt.ipynb",
+  "git":  {
+    "remote":  "https://github.com/CarusoVitor/PLN-Trabalho-Final.git",
+    "commit":  "8aae52d4234dd41a07c9784e63d74d0f3c1d409f"
+  },
+  "email":  "victorelitt@gmail.com",
+  "root":  "/home/victor/vscode/UFRGS/pln/trab_final/PLN-Trabalho-Final",
+  "host":  "Dellahan",
+  "executable":  "/home/victor/.cache/pypoetry/virtualenvs/pln-trabalho-final-XGtRUITD-py3.12/bin/python",
+  "codePathLocal":  "hyperp_opt.ipynb",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "1081101176832",
+      "used":  "80667443200"
+    }
+  },
+  "memory":  {
+    "total":  "7987183616"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "memoryTotal":  "4294967296",
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.6"
+}
